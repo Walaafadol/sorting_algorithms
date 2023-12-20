@@ -14,7 +14,7 @@ b->next->prev = a;
 a->next = b->next;
 b->prev = a->prev;
 a->prev = b;
-b->next = a
+b->next = a;
 }
 
 /**
@@ -24,7 +24,7 @@ b->next = a
 */
 void insertion_sort_list(listint_t **list)
 {
-listint_t *i, listint_t *j;
+listint_t *i, *j;
 if (list == NULL || *list == NULL || (*list)->next == NULL)
 return;
 i = (*list)->next;
@@ -37,7 +37,7 @@ while (j && j->prev)
 
 if (j->prev->n > j->n)
 {
-swapn(j->prev, j)
+swapn(j->prev, j);
 if (!j->prev)
 *list = j;
 print_list((const listint_t *)*list);
@@ -45,8 +45,9 @@ print_list((const listint_t *)*list);
 }
 else
 {
-j = j->prev
+j = j->prev;
 }
 
+}
 }
 }
