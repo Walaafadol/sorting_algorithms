@@ -1,6 +1,6 @@
 #include "sort.h"
-/*
-*selection_sort - program
+/**
+*selection_sort - program that sort
 *Return:0
 *@array:parameter
 *@size:parameter
