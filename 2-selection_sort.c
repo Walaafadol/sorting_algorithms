@@ -27,3 +27,5 @@ array[i] = array[k];
 array[k] = tmp;
 print_array(array, size);
 }
+}
+}
